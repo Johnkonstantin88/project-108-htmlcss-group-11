@@ -1,0 +1,179 @@
+.your-order {
+  margin-bottom: 80px;
+}
+.bcg-img-your-order {
+  background-image: url();
+  max-width: 375px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+.wrap-your-order-mob-tablet {
+}
+.your-order-section-mob-tablet {
+}
+.title-your-order {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+.text-color-order {
+  color: var(--yellow);
+}
+.wrap-your-order-desktop {
+  display: none;
+}
+.form-your-order {
+}
+.order-input {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  width: 100%;
+  height: 47px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  outline: transparent;
+  color: var(--white);
+}
+.order-input:hover,
+.order-input:focus {
+  border-color: rgba(252, 249, 249, 0.6);
+}
+
+.order-textarea {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 8px;
+  padding: 14px 16px;
+  width: 100%;
+  height: 196px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  resize: none;
+  outline: transparent;
+  color: var(--white);
+}
+.order-textarea:hover,
+.order-textarea:focus {
+  border-color: rgba(252, 249, 249, 0.6);
+}
+.order-input::placeholder,
+.order-textarea::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: var(--grey);
+}
+.btn-order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 36px;
+  width: 145px;
+  height: 49px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: inherit;
+  margin: 0 auto;
+  transition: border-color var(-timing-function);
+}
+.btn-order:hover,
+.btn-order:focus {
+  border-color: var(--yellow);
+}
+.icon-btn-order {
+}
+.your-order-img-tablet {
+  display: none;
+}
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .bcg-img-your-order {
+    background-image: url();
+  }
+}
+/* ========================================================================================================================================================
+tablet
+======================================================================================================================================================== */
+@media screen and (min-width: 768px) {
+  .your-order {
+    margin-bottom: 100px;
+  }
+  .bcg-img-your-order {
+    background-image: url();
+    max-width: 768px;
+    height: 776px;
+    margin-bottom: 100px;
+  }
+  .title-your-order {
+    max-width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+  }
+  .order-input {
+    max-width: 508px;
+    height: 50px;
+  }
+  .order-textarea {
+    max-width: 508px;
+  }
+  .btn-order {
+    font-size: 16px;
+    width: 168px;
+    height: 50px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+  .your-order-img-tablet {
+    display: flex;
+    background-image: url();
+  }
+}
+@media screen and (max-width: 1279px) and (min-resolution: 192dpi) {
+  .bcg-img-your-order {
+    background-image: url();
+  }
+  .your-order-img-tablet {
+    background-image: url();
+  }
+}
+/* ========================================================================================================================================================
+desktop
+======================================================================================================================================================== */
+@media screen and (min-width: 1280px) {
+  .your-order {
+    margin-bottom: 150px;
+  }
+  .bcg-img-your-order {
+    background-image: url();
+    max-width: 1280px;
+    height: 776px;
+    margin-bottom: 150px;
+  }
+  .wrap-your-order-mob-tablet {
+    display: none;
+  }
+  .wrap-your-order-desktop {
+    display: flex;
+    gap: 50px;
+    background-image: url();
+  }
+  .your-order-section-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1439px) and (min-resolution: 192dpi) {
+  .wrap-your-order-desktop {
+    background-image: url();
+  }
+}
