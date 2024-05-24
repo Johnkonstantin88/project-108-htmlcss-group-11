@@ -1,0 +1,41 @@
+.hero-section {
+    padding-top: 84px;
+    padding-bottom: 40px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero-img {
+    border-radius: 4px;
+width: 335px;
+height: 545px;
+}
+.hero-wrap-title {
+
+}
+.hero-title {
+    width: 375px;
+font-size: 44px;
+line-height: 1.09;
+letter-spacing: -0.03em;
+margin-bottom: 20px;
+}
+
+.color-orange {
+    color: #ecd979;
+}
+
+.hero-link {
+}
+.hero-link-icon {
+
+}
+.hero-wrap {
+    display: none;
+}
+.hero-wrap-icon {
+}
+.hero-wrap-text {
+}
