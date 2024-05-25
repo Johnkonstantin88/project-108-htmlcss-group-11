@@ -1,12 +1,12 @@
 .your-order {
-  /* padding-top: 580px; */
+  padding-top: 580px;
   padding-bottom: 80px;
-  /* background-image: url('/../img/your-order/bg-order-mobile.jpg');
+  background-image: url('/../img/your-order/bg-order-mobile.jpg');
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 375px 500px; */
+  background-size: 375px 500px;
 }
-.bcg-img-your-order {
+/* .bcg-img-your-order {
   display: block;
   width: 375px;
   height: 500px;
@@ -17,7 +17,7 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: 375px 500px;
-}
+} */
 @media screen and (max-width: 374px) {
   .title-your-order {
     font-size: 24px;
