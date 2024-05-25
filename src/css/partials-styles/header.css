@@ -1,0 +1,140 @@
+.section-heder {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .logo-header {
+    margin-right: 10px;
+  }
+  
+  .nav {
+    display: none;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+  }
+  
+  .nav-list-item {
+    line-height: 129%;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+  
+  .nav-list-item:hover {
+    color: var(--yellow);
+  }
+  
+  .phone {
+    display: none;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 14px 28px;
+    width: 193px;
+    height: 48px;
+    line-height: 143%;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-left: auto;
+  }
+  
+  .phone:hover {
+    border: 1px solid var(--yellow);
+  }
+  
+  .social-pages {
+    display: flex;
+    gap: 12px;
+    padding: 4px 0px;
+    margin-left: auto;
+  }
+  
+  .icon {
+    display: flex;
+    background: rgba(252, 249, 249, 0.1);
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 8px;
+    fill: var(--white);
+  }
+  
+  .icon:hover {
+    background: none;
+    border: 1px solid var(--yellow);
+  }
+  
+  .menu-button {
+    display: flex;
+    border: none;
+    list-style: none;
+    background: transparent;
+    padding: 0;
+  }
+  
+  .menu-button-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    width: 36px;
+    margin-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  .menu-button-list-1 {
+    margin-left: auto;
+    border: 1px solid var(--yellow);
+    width: 30px;
+  }
+  
+  .menu-button-list-2 {
+    margin-left: auto;
+    border: 1px solid var(--yellow);
+    width: 21px;
+  }
+  
+  /* MEDIA */
+  
+  @media screen and (min-width: 768px) {
+    .menu-button-list {
+      gap: 9px;
+      width: 44px;
+      margin-left: 20px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+  
+    .menu-button-list-1 {
+      width: 37px;
+    }
+  
+    .menu-button-list-2 {
+      width: 26px;
+    }
+  
+  }
+  
+  
+  @media screen and (min-width: 1280px) {
+  
+    .logo-header {
+      margin-right: 60px;
+    }
+  
+    .social-pages {
+      margin-left: 20px;
+    }
+  
+    .nav {
+      display: flex;
+    }
+  
+    .menu-button {
+      display: none;
+    }
+  
+    .phone {
+      display: block;
+    }
+  }
