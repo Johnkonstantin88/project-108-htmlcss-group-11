@@ -17,7 +17,7 @@ width: 100%;
 
 @media screen  and (max-width: 374px) {
     .hero-title {
-        max-width: 300px;
+        /* max-width: 300px; */
     font-size: 35px;
     line-height: 1.38;
 letter-spacing: -0.03em;
@@ -28,7 +28,6 @@ margin-bottom: 20px;
 @media screen  and (min-width: 375px) {
     
 .hero-title {
-    max-width: 335px;
 font-size: 42px;
 line-height: 1.09;
 letter-spacing: -0.03em;
@@ -42,7 +41,7 @@ margin-bottom: 20px;
 
 .hero-link {
     display: flex;
-    border: 1px solid rgba(252, 249, 249, 0.1);
+    border: 1px solid var(--grey);
 border-radius: 15px;
 padding: 14px 36px;
 width: 154px;
@@ -78,7 +77,6 @@ transition: border-color var(--timing-function);
         width: 549px;
     }
     .hero-title {
-    width: 549px;
     font-size: 51px;
     line-height: 1.19;
     margin-bottom: 40px;
@@ -108,7 +106,7 @@ height: 50px;
 font-size: 16px;
 letter-spacing: -0.04em;
 text-align: center;
-color: rgba(252, 249, 249, 0.4);
+color: var(--grey);
 }
 .hero-wrap-icon {
     fill: var(--yellow);
@@ -125,8 +123,10 @@ color: rgba(252, 249, 249, 0.4);
         flex-direction: row;
         gap: 40px;
     }
-    .hero-title {
+    .hero-wrap-main {
         width: 520px;
+    }
+    .hero-title {
         margin-top: 94px;
     }
     
@@ -134,10 +134,15 @@ color: rgba(252, 249, 249, 0.4);
         top: 14px;
         right: 50px;
     }
+    .hero-img {
+        width: 392px;
+    }
 }
 @media screen and (min-width: 1440px) {
-    .hero-title {
+    .hero-wrap-main {
         width: 632px;
+    }
+    .hero-title {
         font-size: 62px;
 line-height: 1.16;
         margin-top: 86px;
