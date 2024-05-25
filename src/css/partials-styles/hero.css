@@ -15,20 +15,9 @@
 width: 100%;
 }
 
-/* .hero-wrap-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-} */
 @media screen  and (max-width: 374px) {
-    /* .hero-container {
-        max-width: 320px;
-        margin: 0 auto;
-    } */
-
     .hero-title {
-        max-width: 300px
+        max-width: 300px;
     font-size: 35px;
     line-height: 1.38;
 letter-spacing: -0.03em;
@@ -39,7 +28,7 @@ margin-bottom: 20px;
 @media screen  and (min-width: 375px) {
     
 .hero-title {
-    width: 335px;
+    max-width: 335px;
 font-size: 42px;
 line-height: 1.09;
 letter-spacing: -0.03em;
