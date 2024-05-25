@@ -48,8 +48,8 @@ body {
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -57,5 +57,7 @@ body {
 @media screen and (min-width: 1440px) {
   .container {
     width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
