@@ -1,0 +1,74 @@
+<section class="your-order" id="your-order">
+  <div class="container">
+    <div class="bcg-img-your-order"></div>
+    <div class="wrap-your-order">
+      <div class="your-order-section">
+        <h2 class="title-your-order">
+          <span class="text-color-order">Your order </span>is our priority:
+          Personalized approach and quality of service
+        </h2>
+        <form class="form-your-order">
+          <input
+            class="order-input"
+            type="text"
+            name="user-name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            placeholder="Enter your full name"
+            required
+          />
+          <input
+            class="order-input"
+            type="email"
+            name="user-email"
+            placeholder="Enter your email"
+            required
+          />
+          <textarea
+            class="order-textarea"
+            name="user-comment"
+            placeholder="Comments"
+            required
+          ></textarea>
+          <button class="btn-order" type="submit">
+            Send
+            <svg class="icon-btn-order" width="24" height="17">
+              <use href="../img/svg/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="your-order-img">
+        <picture>
+          <source
+            srcset="
+              /img/your-order/order-desktop1440.jpg    1x,
+              /img/your-order/order-desktop1440@2x.jpg 2x
+            "
+            media="(min-width: 1440px)"
+            width="524"
+            height="521"
+          />
+          <source
+            srcset="
+              /img/your-order/order-desktop.jpg    1x,
+              /img/your-order/order-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+            width="588"
+            height="521"
+          />
+          <source
+            srcset="
+              /img/your-order/order-tablet.jpg    1x,
+              /img/your-order/order-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            width="704"
+            height="521"
+          />
+          <img src="/img/your-order/order-tablet.jpg" alt="your-order-img" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
