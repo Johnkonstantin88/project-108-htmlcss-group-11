@@ -49,8 +49,7 @@ height: 49px;
 font-weight: 600;
 letter-spacing: -0.04em;
 text-transform: uppercase;
-margin-right: auto;
-margin-left: auto;
+margin-left: 90px;
 transition: border-color var(--timing-function);
 }
 .hero-link:hover,
