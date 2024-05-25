@@ -1,33 +1,43 @@
 /* mobile */
 @media screen and (min-width: 375px) {
-    .section-testimonials {
+    .testimonials-container{
         max-width: 375px;
     }
-.testimonials-container {}
+    .section-testimonials{
+        padding: 0;
+    }
+  
 
 .testimonials-title {
     font-family: "Manrope", sans-serif;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 32px;
     line-height: 64px;
     letter-spacing: -0.03em;
     color: #fcf9f9;
-    margin-left: 100px;
-    margin-bottom: auto;
+    margin-bottom: 40px;
     height: 100%;
     width: 100%;
 }
 
-.test-img-item {}
+.test-img-item {
+border: 1px solid rgba(252, 249, 249, 0.1);
+padding: 0px 18px 18px 18px;
+width: 335px;
+height: 243px;
+margin-bottom: 80px;
+}
 
 .user-link {}
 
-.gallery-test-container {}
+.gallery-test-container {
+   
+}
 
 .gallery-img-test {}
 
 .test-content-container {
-    padding: 0;
+    padding: 0 ;
 }
 
 .userpic {
@@ -37,6 +47,7 @@
     line-height: 30px;
     text-align: center;
     color: #fcf9f9;
+    margin-bottom: 8px;
 }
     .review{
     font-family: "Manrope", sans-serif;
@@ -44,38 +55,52 @@
     font-size: 14px;
     text-align: center;
     color: rgba(252, 249, 249, 0.4);
+    padding: 22px 2px 18px;
     }
 
     .test-img-list {
      display: flex;
-     padding: 40px;
-     margin-left: 100px;
-     margin-right: 100px;
-     gap: 26px;
+     flex-direction: column;
     }
 }
 
 /* tablet  */
 @media screen and (min-width: 1280px) {
-    .section-testimonials{
+    .testimonials-container{
         max-width: 1280px;
     }
 .review{
 font-size: 14px;
+padding: 0;
 }
-        
+.testimonials-title{
+    margin: 0;
+}
+ .test-img-list {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     padding: 32px 32px ;
+        width: 704px;
+        height: 414px;
+        overflow: auto;
+        gap: 32px;  
+ }    
 }
 
 /* desctop */
 @media screen and (min-width: 1440px) {
-.section-testimonials {
+.testimonials-container {
         max-width: 1440px;
     }
         .test-img-list {
             display: flex;
-            padding: 40px;
-            margin-left: 100px;
-            margin-right: 100px;
+            flex-direction: column;
             gap: 26px;
+            width: 1240px;
+            height: 392px;
+            overflow: auto;
+            
         }
-}
+            
+} 
