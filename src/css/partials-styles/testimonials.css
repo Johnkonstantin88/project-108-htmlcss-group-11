@@ -26,15 +26,20 @@ padding: 0px 18px 18px 18px;
 width: 335px;
 height: 243px;
 margin-bottom: 80px;
+
 }
 
 .user-link {}
 
 .gallery-test-container {
-   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 
-.gallery-img-test {}
+.gallery-img-test {
+    align-items: center;
+}
 
 .test-content-container {
     padding: 0 ;
@@ -94,6 +99,8 @@ padding: 0;
 .testimonials-container {
         max-width: 1440px;
     }
+    
+
         .test-img-list {
             display: flex;
             flex-direction: column;
@@ -103,6 +110,13 @@ padding: 0;
             overflow: auto;
             align-content: flex-start;
             
-        }
             
-} 
+        }
+        .user-link{
+                display: flex;
+                justify-content: center;
+                
+        }
+
+
+}
