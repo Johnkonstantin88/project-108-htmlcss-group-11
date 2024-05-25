@@ -7,7 +7,7 @@
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   margin-bottom: 80px;
 }
 @media screen and (max-width: 374px) {
@@ -107,7 +107,11 @@ tablet
 ======================================================================================================================================================== */
 @media screen and (min-width: 768px) {
   .your-order {
-    padding-bottom: 100px;
+    padding-bottom: 179px;
+    background-image: url('../../img/elements-grey.png');
+    background-size: 545px 484px;
+    background-repeat: no-repeat;
+    background-position: bottom 100px left -265px;
   }
   .bcg-img-your-order {
     background-image: url('../../img/your-order/bg-order-tablet.jpg');
@@ -138,16 +142,20 @@ tablet
   }
   .your-order-img {
     display: flex;
-    /* background-image: url('../../img/elements-grey.png'); */
+    /* background-image: url('../../img/elements-grey.png');
+    background-size: 545px 484px;
+    background-repeat: no-repeat;
+    background-position: bottom left -334px;
+    padding-bottom: 78px; */
   }
 }
-@media screen and (max-width: 1279px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .bcg-img-your-order {
     background-image: url('../../img/your-order/bg-order-tablet@2x.jpg');
   }
   .your-order-img {
-    /* background-image: url('../../img/elements-grey@2x.png');
-    background-position: left center; */
+    background-image: url('../../img/elements-grey@2x.png');
+    background-position: left center;
   }
 }
 /* ========================================================================================================================================================
@@ -156,6 +164,7 @@ desktop
 @media screen and (min-width: 1280px) {
   .your-order {
     padding-bottom: 150px;
+    background-position: bottom 150px left -306px;
   }
   .bcg-img-your-order {
     background-image: url('../../img/your-order/bg-order-desktop.jpg');
@@ -169,18 +178,35 @@ desktop
   .wrap-your-order {
     display: flex;
     flex-direction: row-reverse;
-    gap: 50px;
-    background-image: url('../../img/elements-grey.png');
-    background-repeat: no-repeat;
-    background-position: -50% bottom;
+    column-gap: 50px;
   }
   .your-order-section {
     display: flex;
     flex-direction: column;
   }
+  .your-order-img {
+    padding-bottom: 0;
+  }
 }
-@media screen and (max-width: 1439px) and (min-resolution: 192dpi) {
-  .wrap-your-order {
-    /* background-image: url('../../img/elements-grey@2x.png'); */
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .bcg-img-your-order {
+    background-image: url('../../img/your-order/bg-order-desktop@2x.jpg');
+  }
+}
+/* ========================================================================================================================================================
+desktop 1440
+======================================================================================================================================================== */
+@media screen and (min-width: 1440px) {
+  .bcg-img-your-order {
+    background-image: url('../../img/your-order/bg-order-desktop1440.jpg');
+    max-width: 1440px;
+  }
+  .title-your-order {
+    max-width: 666px;
+  }
+}
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .bcg-img-your-order {
+    background-image: url('../../img/your-order/bg-order-desktop1440@2x.jpg');
   }
 }
