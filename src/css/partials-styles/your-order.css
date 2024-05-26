@@ -16,6 +16,9 @@
   background-size: 375px 500px;
 }
 @media screen and (max-width: 374px) {
+  .bcg-img-your-order {
+    width: auto;
+  }
   .title-your-order {
     font-size: 24px;
   }
