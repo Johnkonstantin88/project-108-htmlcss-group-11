@@ -1,0 +1,169 @@
+.footer {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+    display: flex;
+
+}
+
+.nav-list {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.sections-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 25px;
+    /* width: 280px; */
+
+}
+
+.section-item {
+    /*    width: calc((100% - 40px) / 2);  */
+    /* flex-basis: 125px; */
+    transition: color var(--timing-function);
+}
+
+.section-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    color: #FCF9F9;
+    width: 124px;
+}
+
+.slogan {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 123%;
+    letter-spacing: -0.03em;
+    color: #FCF9F9;
+    padding-bottom: 80px;
+}
+
+.slogan-item {
+    color: #ECD979;
+}
+
+.ornament-background {
+    background-image: url(/img/footer/ornament-mob.png);
+    min-height: 200px;
+    flex-grow: 1;
+    min-width: 174px;
+    background-position: 0px 0px;
+}
+
+.section-link:hover,
+.section-link:focus {
+    color: #ECD979;
+}
+
+@media screen and (max-width: 374px) {
+    .slogan {
+        font-size: 24px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .ornament-background {
+        /* background-position: center; */
+        background-position: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .ornament-background {
+        background-position: -20px 0px;
+    }
+
+    .sections-list {
+        display: grid;
+        grid-template-columns: 116px 124px;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .sections-list {
+        padding-right: 20px;
+        column-gap: 25px;
+    }
+
+    .slogan {
+        width: 521px;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 119%;
+        letter-spacing: -0.03em;
+        padding-bottom: 40px;
+    }
+
+    .nav-list {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .ornament-background {
+        background-position: 0px -15.5px;
+    }
+
+    .fist {
+        order: 1;
+    }
+
+    .second {
+        order: 3;
+    }
+
+    .third {
+        order: 2;
+    }
+
+    .fourth {
+        order: 4
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .slogan {
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 116%;
+        letter-spacing: -0.03em;
+        width: 754px;
+        padding-bottom: 40px;
+    }
+
+    .ornament-background {
+        min-width: 336px;
+        background-image: url(/img/footer/ornament-full.png);
+        background-position: 0px -61px;
+    }
+
+    .sections-list {
+        width: 478px;
+        column-gap: 25px;
+        padding-bottom: 117px;
+    }
+
+    .nav-list {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .ornament-background {
+        min-width: 496px;
+    }
+
+}
