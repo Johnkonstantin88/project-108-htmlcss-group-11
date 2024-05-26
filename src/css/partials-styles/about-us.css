@@ -57,12 +57,6 @@
   }
 }
 
-@media screen and (min-resolution: 192dpi) {
-  .about-us-section {
-    background-image: url(/img/about-us/aboutus-mob@2x.png);
-  }
-}
-
 @media screen and (min-width: 768px) {
   .about-us-section {
     background-image: url(/img/about-us/aboutus-tab.png);
