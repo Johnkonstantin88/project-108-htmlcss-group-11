@@ -16,6 +16,9 @@
   background-size: 375px 500px;
 }
 @media screen and (max-width: 374px) {
+  .bcg-img-your-order {
+    width: auto;
+  }
   .title-your-order {
     font-size: 24px;
   }
@@ -179,7 +182,7 @@ desktop
   .bcg-img-your-order {
     width: 1280px;
     margin-bottom: 150px;
-    background-image: url('/img/your-order/bg-order-desktop.png');
+    background-image: url('../../img/your-order/bg-order-desktop.png');
     background-size: 1280px 776px;
   }
   .form-your-order {
