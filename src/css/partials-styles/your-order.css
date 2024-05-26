@@ -1,5 +1,7 @@
 .your-order {
   padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bcg-img-your-order {
   display: block;
@@ -115,6 +117,7 @@ tablet
 @media screen and (min-width: 768px) {
   .your-order {
     padding-bottom: 179px;
+    max-width: 768px;
     background-image: url('/../img/your-order/element-tablet.png');
     background-size: 323px 484px;
     background-repeat: no-repeat;
@@ -166,6 +169,7 @@ desktop
 ======================================================================================================================================================== */
 @media screen and (min-width: 1280px) {
   .your-order {
+    max-width: 1280px;
     padding-bottom: 150px;
     background-image: url('/../img/your-order/element-desktop.png');
     background-size: 289px 484px;
@@ -205,6 +209,7 @@ desktop 1440
 ======================================================================================================================================================== */
 @media screen and (min-width: 1440px) {
   .your-order {
+    max-width: 1440px;
     background-image: url('/../img/your-order/element-desktop1440.png');
     background-size: 325px 484px;
   }
