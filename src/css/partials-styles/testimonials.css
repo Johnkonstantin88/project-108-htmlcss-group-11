@@ -51,9 +51,6 @@
                             padding-top: 54px;
                         }
 
-    .hidden{
-        display: none;
-    }
 
 }
 
@@ -74,7 +71,7 @@
             }
             .test-img-list{
                         display: flex;
-                            flex-wrap: wrap;
+                            
                             width: 704px;
                             height: 310px;
             }
