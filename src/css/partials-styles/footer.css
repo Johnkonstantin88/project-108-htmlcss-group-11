@@ -4,7 +4,7 @@
 
 }
 
-.nav-list {
+.nav-list-my {
     padding-bottom: 40px;
     padding-top: 40px;
 }
@@ -52,6 +52,7 @@
     flex-grow: 1;
     min-width: 174px;
     background-position: 0px 0px;
+    background-repeat: no-repeat;
 }
 
 .section-link:hover,
