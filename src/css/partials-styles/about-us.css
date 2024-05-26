@@ -40,6 +40,16 @@
   margin-right: auto;
 }
 
+@media screen and (max-width: 374px) {
+  img {
+    width: 100%;
+  }
+
+  .aboutus-title {
+    font-size: 24px;
+  }
+}
+
 @media screen and (min-width: 325px) and (min-resolution: 192dpi) {
   .about-us-section {
     background-image: url(/img/about-us/aboutus-mob@2x.png);
