@@ -33,12 +33,12 @@
 .about-us-section {
   background-image: url(/img/about-us/aboutus-mob.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom 18px right;
   background-size: 252px 393px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 62px;
+  padding-bottom: 80px;
 }
 
 @media screen and (max-width: 374px) {
@@ -61,8 +61,9 @@
   .about-us-section {
     background-image: url(/img/about-us/aboutus-tab.png);
     max-width: 768px;
+    background-position: bottom 53px right;
     background-size: 369px 431px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
 
   .aboutus-title {
@@ -96,7 +97,8 @@
     background-image: url(/img/about-us/aboutus-pc.png);
     max-width: 1280px;
     background-size: 385px 431px;
-    padding-bottom: 80px;
+    background-position: bottom 70px right;
+    padding-bottom: 150px;
   }
 }
 
