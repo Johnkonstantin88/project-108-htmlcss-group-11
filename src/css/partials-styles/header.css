@@ -19,6 +19,7 @@
   line-height: 1.29;
   text-transform: uppercase;
   color: var(--white);
+  transition: color var(--timing-function);
 }
 
 .nav-list-item:hover {
@@ -36,6 +37,7 @@
   text-transform: uppercase;
   color: var(--white);
   margin-left: auto;
+  transition: border-color var(--timing-function);
 }
 
 .phone:hover {
@@ -56,6 +58,7 @@
   border-radius: 15px;
   padding: 8px;
   fill: var(--white);
+  transition: border-color var(--timing-function);
 }
 
 .icon:hover {
