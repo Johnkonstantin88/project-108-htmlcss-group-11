@@ -1,0 +1,90 @@
+/* mobile */
+@media screen and (min-width: 375px) {
+
+    .testimonials-title {
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.375;
+        letter-spacing: -0.03em;
+
+         margin-bottom: 40px;
+    }
+
+    .userpic {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+
+        padding-bottom: 8px;
+    }
+
+    .review {
+        font-size: 14px;
+        text-align: center;
+        color: rgba(252, 249, 249, 0.4);
+        letter-spacing: -0.04em;
+
+    }
+
+
+    .gallery-img-test {
+        position: absolute;
+
+        border-radius: 100%;
+        box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
+        margin: auto;
+        top: -24px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+                        .test-img-item {
+                            position: relative;
+                            width: 335px;
+                            height: 243px;
+                            border: 1px solid rgba(252, 249, 249, 0.1);
+                            border-radius: 4px;
+                            padding: 0px 18px 18px 18px;
+            
+                            margin-bottom: 80px;
+                            padding-top: 54px;
+                        }
+
+
+}
+
+
+/* tablet  */
+@media screen and (min-width: 1280px) {
+    .testimonials-container{
+        width: 1180px;
+        padding: 0;
+        
+    }
+
+        
+        .test-img-item {
+                position: relative;
+                width: 336px;
+                height: 286px;
+            }
+            .test-img-list{
+                        display: flex;
+                            
+                            width: 704px;
+                            height: 310px;
+            }
+
+                        .review {
+                            font-size: 14px;
+                            
+                        }
+         
+   
+}
+
+/* desctop */
+@media screen and (min-width: 1440px) {
+    
+}
