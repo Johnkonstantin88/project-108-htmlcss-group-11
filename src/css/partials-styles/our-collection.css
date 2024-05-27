@@ -1,9 +1,9 @@
 .our-collection {
   padding-bottom: 80px;
-  background-image: url();
-  /* background-size: 323px 484px;
-    background-repeat: no-repeat;
-    background-position: bottom 100px left; */
+  background-image: url('/img/our-collection/element-mob.png');
+  background-size: 72px 177px;
+  background-repeat: no-repeat;
+  background-position: top 298px left;
 }
 @media screen and (max-width: 374px) {
   .our-collection-title {
@@ -19,20 +19,12 @@
   text-align: center;
   margin-bottom: 40px;
 }
-
 .our-collection-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 20px;
 }
-
-.our-collection-menu-item {
-}
-
-.our-collection-text-container {
-}
-
 .our-collection-menu-title {
   font-weight: 500;
   font-size: 14px;
@@ -42,7 +34,6 @@
   color: #fcf9f9;
   margin: 18px 0 8px 0;
 }
-
 .our-collection-menu-subtitle {
   font-weight: 400;
   font-size: 14px;
@@ -50,16 +41,23 @@
   letter-spacing: 0.05em;
   color: rgba(252, 249, 249, 0.4);
 }
-
 .accent-punto {
   display: none;
 }
-.accent-blousering {
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .our-collection {
+    background-image: url('/img/our-collection/element-mob@2x.png');
+  }
 }
-
+/* ========================================================================================================================================================
+tablet
+======================================================================================================================================================== */
 @media screen and (min-width: 768px) {
   .our-collection {
     padding-bottom: 100px;
+    background-image: url('/img/our-collection/element-tablet.png');
+    background-size: 114px 300px;
+    background-position: top 201px left;
   }
   .our-collection-menu {
     flex-direction: row;
@@ -83,10 +81,20 @@
     display: none;
   }
 }
-
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .our-collection {
+    background-image: url('/img/our-collection/element-tablet@2x.png');
+  }
+}
+/* ========================================================================================================================================================
+desktop
+======================================================================================================================================================== */
 @media screen and (min-width: 1280px) {
   .our-collection {
     padding-bottom: 150px;
+    background-image: url('/img/our-collection/element-desktop.png');
+    background-size: 169px 300px;
+    background-position: top 201px left;
   }
   .our-collection-menu {
     row-gap: 40px;
@@ -98,12 +106,29 @@
     display: none;
   }
 }
-
+@media screen and (max-width: 1280px) and (min-resolution: 192dpi) {
+  .our-collection {
+    background-image: url('/img/our-collection/element-desktop@2x.png');
+  }
+}
+/* ========================================================================================================================================================
+desktop1440
+======================================================================================================================================================== */
 @media screen and (min-width: 1440px) {
+  .our-collection {
+    background-image: url('/img/our-collection/element-desktop1440.png');
+    background-size: 169px 300px;
+    background-position: top 201px left;
+  }
   .our-collection-menu-item {
     width: calc((100% - 40px) / 3);
   }
   .accent-punto {
     display: none;
+  }
+}
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .our-collection {
+    background-image: url('/img/our-collection/element-desktop1440@2x.png');
   }
 }
