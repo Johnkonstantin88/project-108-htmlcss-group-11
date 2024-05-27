@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width: 374px) {
-  img {
+  .img-vishivanka {
     width: 100%;
   }
 
