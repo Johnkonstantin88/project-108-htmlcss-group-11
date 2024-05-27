@@ -1,7 +1,7 @@
-Над створенням цього проекту процювала group-11 під назвою Strong Web
+Над створенням цього проекту процювала group-11 під назвою Strong Web. Проект було створено за допомогою Vite.
 
 Склад команди:
-Константін - Team-lead (https://github.com/Johnkonstantin88)
+Костянтин - Team-lead (https://github.com/Johnkonstantin88)
 Олена - Scrum macter (https://github.com/Lencha2005) секція Hero
 
 та разробники:
@@ -19,6 +19,6 @@
 
 ТЗ https://docs.google.com/spreadsheets/d/1rWg3FF5Lk0-yOkGLRIqcfX9FehqOBhXh9ncs0Hqn6EM/edit#gid=0
 
-Сайт адаптован під Mobile (375px), Tablet (768px), та  Dekstop (1280px та 1440px)
+Сайт адаптован під Mobile (375px), Tablet (768px),  Dekstop (1280px та 1440px)
 
 Жива сторінка https://johnkonstantin88.github.io/project-108-htmlcss-group-11/
