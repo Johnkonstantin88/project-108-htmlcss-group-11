@@ -25,6 +25,9 @@
   justify-content: center;
   row-gap: 20px;
 }
+.our-collection-text-container {
+  padding-top: 18px;
+}
 .our-collection-menu-title {
   font-weight: 500;
   font-size: 14px;
@@ -32,7 +35,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #fcf9f9;
-  margin: 18px 0 8px 0;
+  margin-bottom: 8px;
 }
 .our-collection-menu-subtitle {
   font-weight: 400;
