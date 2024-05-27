@@ -118,7 +118,7 @@ tablet
 ======================================================================================================================================================== */
 @media screen and (min-width: 768px) {
   .your-order {
-    padding-bottom: 179px;
+    padding-bottom: 100px;
     max-width: 768px;
     background-image: url('/img/your-order/element-tablet.png');
     background-size: 323px 484px;
@@ -157,6 +157,7 @@ tablet
   }
   .your-order-img {
     display: flex;
+    padding-bottom: 79px;
   }
 }
 
