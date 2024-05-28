@@ -5,10 +5,6 @@
     row-gap: 25px;
 }
 
-.section-item {
-    transition: color var(--timing-function);
-}
-
 .section-link {
     font-weight: 400;
     font-size: 14px;
@@ -42,6 +38,7 @@
 .section-link:hover,
 .section-link:focus {
     color: #ECD979;
+    transition: color var(--timing-function);
 }
 
 
