@@ -4,8 +4,6 @@
   padding-top: 20px;
 }
 
-
-
 .nav-list {
   display: none;
   align-items: center;
@@ -48,7 +46,6 @@
   padding: 4px 0px;
   margin-left: auto;
 }
-
 .icon {
   display: flex;
   background: rgba(252, 249, 249, 0.1);
@@ -56,12 +53,13 @@
   border-radius: 15px;
   padding: 8px;
   fill: var(--white);
-  transition: border-color var(--timing-function);
+  transition: background var(--timing-function),
+    border-color var(--timing-function);
 }
 
 .icon:hover {
   background: none;
-  border: 1px solid var(--yellow);
+  border-color: var(--yellow);
 }
 
 .menu-button {
@@ -77,8 +75,6 @@
   height: 24px;
   margin-left: 12px;
 }
-
-
 
 /* MEDIA */
 
