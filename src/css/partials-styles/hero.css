@@ -33,7 +33,7 @@
   background-color: transparent;
   border: 1px solid var(--grey);
   border-radius: 15px;
-
+  padding: 14px 36px;
   min-width: 154px;
   min-height: 49px;
 
@@ -44,10 +44,6 @@
   text-transform: uppercase;
   margin-left: 90px;
   transition: border-color var(--timing-function);
-}
-
-.hero-btn-link {
-  padding: 14px 36px;
 }
 
 .hero-btn:hover,
@@ -92,9 +88,6 @@
     min-height: 50px;
     margin-left: 141px;
     margin-right: 0;
-  }
-
-  .hero-btn-link {
     padding: 14px 39px;
   }
 
