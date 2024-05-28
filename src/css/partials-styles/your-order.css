@@ -48,7 +48,7 @@
   outline: transparent;
   color: var(--white);
   margin-bottom: 20px;
-  transition: border-color var(-timing-function);
+  transition: border-color var(--timing-function);
 }
 .order-input:hover,
 .order-input:focus {
@@ -65,7 +65,7 @@
   outline: transparent;
   color: var(--white);
   margin-bottom: 40px;
-  transition: border-color var(-timing-function);
+  transition: border-color var(--timing-function);
 }
 .order-textarea:hover,
 .order-textarea:focus {
@@ -95,7 +95,7 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: inherit;
-  transition: border-color var(-timing-function);
+  transition: border-color var(--timing-function);
 }
 .btn-order:hover,
 .btn-order:focus {
