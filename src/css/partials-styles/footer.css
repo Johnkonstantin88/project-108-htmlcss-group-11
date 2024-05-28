@@ -1,12 +1,16 @@
 .footer {
+  height: 637px;
   padding-top: 40px;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
+
   gap: 40px;
   align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .footer-section-list {
@@ -14,6 +18,10 @@
   flex-wrap: wrap;
   column-gap: 40px;
   row-gap: 25px;
+}
+
+.footer-section-list > .footer-section-item:nth-child(2) {
+  margin-left: 49px;
 }
 
 .footer-section-link {
@@ -61,6 +69,10 @@
 }
 
 @media screen and (max-width: 374px) {
+  .footer {
+    height: auto;
+  }
+
   .footer-slogan {
     font-size: 30px;
   }
@@ -68,10 +80,6 @@
   .footer-bg {
     background-size: 100%;
   }
-}
-
-.footer-slogan {
-  padding-bottom: 80px;
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
@@ -82,6 +90,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
+    height: 370px;
     background-image: url('/img/footer/slice-tablet.png');
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -89,7 +98,8 @@
     padding-bottom: 40px;
   }
   .footer-container {
-    gap: 80px;
+    height: 100%;
+    margin-bottom: 0;
   }
   .footer-section-list {
     column-gap: 25px;
@@ -97,6 +107,7 @@
 
   .footer-section-list > .footer-section-item:nth-child(2) {
     order: 3;
+    margin-left: 0px;
   }
 
   .footer-section-list > .footer-section-item:nth-child(4) {
@@ -128,6 +139,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .footer {
+    height: 363px;
+    background-image: url('/img/footer/slice-desktop1280.png');
+    background-position: right;
+    background-size: 336px 363px;
+    padding-bottom: 40px;
+  }
+
   .footer-slogan {
     font-weight: 400;
     font-size: 64px;
@@ -136,15 +155,6 @@
     letter-spacing: -0.03em;
   }
 
-  .footer {
-    background-image: url('/img/footer/slice-desktop1280.png');
-    background-position: right;
-    background-size: 336px 363px;
-    padding-bottom: 40px;
-  }
-  .footer-container {
-    gap: 117px;
-  }
   .footer-section-list {
     width: 478px;
     column-gap: 25px;

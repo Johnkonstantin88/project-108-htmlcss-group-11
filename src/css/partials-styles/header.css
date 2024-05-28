@@ -43,9 +43,9 @@
 .social-pages-list {
   display: flex;
   gap: 12px;
-  padding: 4px 0px;
   margin-left: auto;
 }
+
 .icon {
   display: flex;
   background: rgba(252, 249, 249, 0.1);
@@ -53,13 +53,12 @@
   border-radius: 15px;
   padding: 8px;
   fill: var(--white);
-  transition: background var(--timing-function),
-    border-color var(--timing-function);
+  transition: border-color var(--timing-function);
 }
 
 .icon:hover {
   background: none;
-  border-color: var(--yellow);
+  border: 1px solid var(--yellow);
 }
 
 .menu-button {
@@ -68,12 +67,12 @@
   list-style: none;
   background: transparent;
   padding: 0;
+  margin-left: 12px;
 }
 .mobile-menu-burger {
   stroke: #ecd979;
   width: 36px;
   height: 24px;
-  margin-left: 12px;
 }
 
 /* MEDIA */
@@ -181,7 +180,6 @@
   padding-right: 20px;
 }
 .mobile-menu-list-item {
-  line-height: 18px;
   text-align: right;
   line-height: 1.28;
   font-style: normal;
@@ -257,5 +255,10 @@
 @media screen and (min-width: 1280px) {
   .mobile-menu {
     display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header {
+    padding-top: 18px;
   }
 }
