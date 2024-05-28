@@ -12,11 +12,6 @@
   gap: 40px;
 }
 
-.hero-img {
-  width: 335px;
-height: 545px;
-}
-
 .hero-title {
   font-size: 42px;
   line-height: 1.09;
@@ -109,10 +104,7 @@ height: 545px;
     align-items: center;
     gap: 16px;
   }
-  .hero-img {
-    width: 413px;
-height: 575px;
-  }
+
   .hero-wrap-text {
     font-size: 16px;
     letter-spacing: -0.04em;
@@ -143,10 +135,7 @@ height: 575px;
     top: 14px;
     right: 50px;
   }
-  .hero-img {
-    width: 392px;
-height: 545px;
-  }
+
 }
 @media screen and (min-width: 1440px) {
   .hero-wrap-main {
