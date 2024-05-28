@@ -13,7 +13,8 @@
 }
 
 .hero-img {
-  width: 100%;
+  width: 335px;
+height: 545px;
 }
 
 .hero-title {
@@ -110,6 +111,7 @@
   }
   .hero-img {
     width: 413px;
+height: 575px;
   }
   .hero-wrap-text {
     font-size: 16px;
@@ -143,6 +145,7 @@
   }
   .hero-img {
     width: 392px;
+height: 545px;
   }
 }
 @media screen and (min-width: 1440px) {
