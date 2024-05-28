@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="icon" type="image/svg+xml" href="/project-108-htmlcss-group-11/assets/logo-4dce02fa.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Fonts  -->
@@ -23,60 +23,61 @@
     
     <title>Vyshyvanka Vibes</title>
     <script type="module" crossorigin src="/project-108-htmlcss-group-11/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-108-htmlcss-group-11/assets/index-4cef4d78.css">
+    <link rel="stylesheet" href="/project-108-htmlcss-group-11/assets/index-3ff6dba4.css">
   </head>
 
   <body>
     <header>
   <div class="header container">
-<a href=""><img class="logo" src="/project-108-htmlcss-group-11/assets/logo-4dce02fa.svg" alt=""></a>
+    <a href=""><img class="logo" src="/project-108-htmlcss-group-11/assets/logo-4dce02fa.svg" alt="logo"></a>
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-list-item">
-          <a href="index.html#about-us">ABOUT US</a>
+          <a href="#about-us">ABOUT US</a>
         </li>
         <li class="nav-list-item">
-          <a href="index.html#our-collection">OUR COLLECTION</a>
+          <a href="#our-collection">OUR COLLECTION</a>
         </li>
         <li class="nav-list-item">
-          <a href="index.html#your-order">CUSTOMER ORDER</a>
+          <a href="#your-order">CUSTOMER ORDER</a>
         </li>
         <li class="nav-list-item">
-          <a href="index.html#testimonials">TESTIMONIALS</a>
+          <a href="#testimonials">TESTIMONIALS</a>
         </li>
       </ul>
     </nav>
     <a class="phone" href="tel:+380684439426">+380 (68) 443-94-26</a>
+
     <ul class="social-pages-list">
       <li class="social-pages-list-item">
         <a class="social-pages-list-item-link" href="https://www.facebook.com/goITclub/" target="_blank">
-          <svg class="icon" width="44px" height="44px">
+          <svg class="icon" width="44px" height="44px" aria-label="facebook">
             <use href='/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-facebook'></use>
           </svg></a>
       </li>
       <li>
         <a class="social-pages-list-item-link" href="https://www.instagram.com/goitclub/ " target="_blank">
-          <svg class="icon" width="44px" height="44px">
+          <svg class="icon" width="44px" height="44px" aria-label="instagram">
             <use href='/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-instagram'></use>
           </svg></a>
       </li>
       <li>
         <a class="social-pages-list-item-link" href="https://www.youtube.com/c/GoIT " target="_blank">
-          <svg class="icon" width="44px" height="44px">
+          <svg class="icon" width="44px" height="44px" aria-label="youtube">
             <use href='/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-youtube'></use>
           </svg></a>
       </li>
     </ul>
     <button class="menu-button" type="button">
-      <svg class="mobile-menu-burger" width="36" height="24">
+      <svg class="mobile-menu-burger" width="36" height="24" aria-label="mobile menu button" >
         <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-nav-mobile"></use>
       </svg>
     </button>
   </div>
-  <div class="mobile-menu">
+  <div class="mobile-menu ">
     <div class="mobile-menu-container">
       <button class="mobile-menu-close-btn">
-        <svg class="mobile-menu-close-btn-icon" width="18" height="18">
+        <svg class="mobile-menu-close-btn-icon" width="18" height="18" aria-label="mobile menu close button">
           <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-cross-mobile"></use>
         </svg>
       </button>
@@ -89,10 +90,10 @@
 
       <nav class="mobile-menu-nav">
         <ul class="mobile-menu-list">
-          <li class="mobile-menu-list-item"><a href="">About us</a></li>
-          <li class="mobile-menu-list-item"><a href="">Our collection </a></li>
-          <li class="mobile-menu-list-item"><a href="">CUSTOMER ORDER</a></li>
-          <li class="mobile-menu-list-item"><a href="">TEstimonials</a></li>
+          <li class="mobile-menu-list-item"><a href="#about-us">About us</a></li>
+          <li class="mobile-menu-list-item"><a href="#our-collection">Our collection </a></li>
+          <li class="mobile-menu-list-item"><a href="#your-order">CUSTOMER ORDER</a></li>
+          <li class="mobile-menu-list-item"><a href="#testimonials">TEstimonials</a></li>
         </ul>
       </nav>
       <div class="background-menu"></div>
@@ -103,41 +104,62 @@
 
     <main>
       <section class="hero-section">
-    <div class="container hero-container">
-        
-        <picture>
-            <source srcset="/project-108-htmlcss-group-11/assets/hero-desktop-1f2f1d29.jpg 1x, /project-108-htmlcss-group-11/assets/hero-desktop@2x-0991f554.jpg 2x"
-          media="(min-width: 1440px)">
-          
-          <source srcset="/project-108-htmlcss-group-11/assets/hero-desktop-1f2f1d29.jpg 1x, /project-108-htmlcss-group-11/assets/hero-desktop@2x-0991f554.jpg 2x"
-          media="(min-width: 1280px)">
+  <div class="container hero-container">
+    <picture>
+      <source
+        srcset="/project-108-htmlcss-group-11/assets/hero-desktop-1f2f1d29.jpg 1x, /project-108-htmlcss-group-11/assets/hero-desktop@2x-0991f554.jpg 2x"
+        media="(min-width: 1440px)"
+      />
 
-          <source srcset="/project-108-htmlcss-group-11/assets/hero-tablet-8944943a.jpg 1x, /project-108-htmlcss-group-11/assets/hero-tablet@2x-778b5376.jpg 2x"
-          media="(min-width: 768px)">
+      <source
+        srcset="/project-108-htmlcss-group-11/assets/hero-desktop-1f2f1d29.jpg 1x, /project-108-htmlcss-group-11/assets/hero-desktop@2x-0991f554.jpg 2x"
+        media="(min-width: 1280px)"
+      />
 
-          <source srcset="/project-108-htmlcss-group-11/assets/hero-mobile-1e31fd03.jpg 1x, /project-108-htmlcss-group-11/assets/hero-mobile@2x-56932c70.jpg 2x"
-          media="(max-width: 767px)">
-          
-          
-        <img class="hero-img" src="/project-108-htmlcss-group-11/assets/hero-mobile-1e31fd03.jpg" alt="girl" />
+      <source
+        srcset="/project-108-htmlcss-group-11/assets/hero-tablet-8944943a.jpg 1x, /project-108-htmlcss-group-11/assets/hero-tablet@2x-778b5376.jpg 2x"
+        media="(min-width: 768px)"
+      />
+
+      <source
+        srcset="/project-108-htmlcss-group-11/assets/hero-mobile-1e31fd03.jpg 1x, /project-108-htmlcss-group-11/assets/hero-mobile@2x-56932c70.jpg 2x"
+        media="(max-width: 767px)"
+      />
+
+      <img class="hero-img" src="/project-108-htmlcss-group-11/assets/hero-mobile-1e31fd03.jpg" alt="girl" />
     </picture>
     <div class="hero-wrap-main">
-        <h1 class="hero-title">Reviving the traditional <span class="color-orange">Ukrainian</span> artistry in every stitch.</h1>
-        <a class="hero-link" href="#your-order" >Order
-            <svg class="hero-link-icon" width="24" height="17">
-                <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-arrow"></use>
-            </svg>
+      <h1 class="hero-title">
+        Reviving the traditional
+        <span class="color-orange">Ukrainian</span> artistry in every stitch.
+      </h1>
+      <button class="hero-btn">
+        <a href="#your-order" class="hero-btn-link"
+          >Order
+          <svg
+            class="hero-btn-icon"
+            width="24"
+            height="17"
+            aria-label="button icon"
+          >
+            <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-arrow"></use>
+          </svg>
         </a>
+      </button>
     </div>
-        <div class="hero-wrap">
-            <svg class="hero-wrap-icon" width="52" height="51">
-                <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-star"></use>
-            </svg>
-        
-        <p class="hero-wrap-text">all embroidery is made by hand</p>
-    </div>
-    </div>
+    <div class="hero-wrap">
+      <svg
+        class="hero-wrap-icon"
+        width="52"
+        height="51"
+        aria-label="star label"
+      >
+        <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-star"></use>
+      </svg>
 
+      <p class="hero-wrap-text">all embroidery is made by hand</p>
+    </div>
+  </div>
 </section>
 
       <section id="about-us" class="section about-us-section">
@@ -637,22 +659,16 @@
   <div class="container footer-container">
     <ul class="footer-section-list">
       <li class="footer-section-item">
-        <a href="index.html#about-us" class="footer-section-link">ABOUT US</a>
+        <a href="#about-us" class="footer-section-link">ABOUT US</a>
       </li>
       <li class="footer-section-item">
-        <a href="index.html#your-order" class="footer-section-link"
-          >CUSTOMER ORDER</a
-        >
+        <a href="#your-order" class="footer-section-link">CUSTOMER ORDER</a>
       </li>
       <li class="footer-section-item">
-        <a href="index.html#our-collection" class="footer-section-link"
-          >OUR COLLECTION</a
-        >
+        <a href="#our-collection" class="footer-section-link">OUR COLLECTION</a>
       </li>
       <li class="footer-section-item">
-        <a href="index.html#testimonials" class="footer-section-link"
-          >TESTIMONIALS</a
-        >
+        <a href="#testimonials" class="footer-section-link">TESTIMONIALS</a>
       </li>
     </ul>
     <h2 class="footer-slogan">
