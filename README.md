@@ -12,7 +12,7 @@
 Станіслав (https://github.com/Ssovelich) секція Your order
 Марина   (https://github.com/Maryna-01)  секція Testimonials
 Владислав (https://github.com/bielanV) секція Footer
-Максим      Mobile Menu
+Максим    (https://github.com/MesseRWW)  Mobile Menu
 
 
 проєкт робили по макету Figma https://www.figma.com/design/jX7XBtk88w2TeFQZztcGFe/Vyshyvanka-Vibes?t=b4ID3JBEhG2RaH4m-0
