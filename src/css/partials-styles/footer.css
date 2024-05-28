@@ -1,170 +1,173 @@
 .footer {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: baseline;
 }
 
 .footer-section-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 40px;
-    row-gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 25px;
 }
 
 .footer-section-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    text-transform: uppercase;
-    color: #fcf9f9;
-    width: 124px;
-    transition: color var(--timing-function);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  width: 124px;
+  transition: color var(--timing-function);
 }
 
 .section-link:hover,
 .section-link:focus {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
 .footer-slogan {
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 1.23;
-    letter-spacing: -0.03em;
-    color: #fcf9f9;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
 }
 
 .footer-slogan-span {
-    color: #ecd979;
+  color: #ecd979;
 }
 
 .footer {
-    border-top: 1px solid rgba(252, 249, 249, 0.1);
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
 
 .footer-section-link:hover,
 .footer-section-link:focus {
-    color: #ecd979;
+  color: #ecd979;
 }
 
 .footer-bg {
-    background-image: url(/img/footer/slice-mobile.png);
-    background-repeat: no-repeat;
-    background-size: 375px 200px;
-    background-position: bottom;
-    height: 200px;
+  background-image: url('/img/footer/slice-mobile.png');
+  background-repeat: no-repeat;
+  background-size: 375px 200px;
+  background-position: bottom;
+  height: 200px;
 }
 
 @media screen and (max-width: 374px) {
-    .footer-slogan {
-        font-size: 30px;
-    }
+  .footer-slogan {
+    font-size: 30px;
+  }
 
-    .footer-bg {
-        background-size: 100%;
-    }
+  .footer-bg {
+    background-size: 100%;
+  }
 }
 
 .footer-slogan {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
-    .footer-bg {
-        background-image: url(/img/footer/slice-mobile@2x.png);
-    }
+  .footer-bg {
+    background-image: url('/img/footer/slice-mobile@2x.png');
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .footer {
-        background-image: url(/img/footer/slice-tablet.png);
-        background-position: bottom right;
-        background-repeat: no-repeat;
-        padding-bottom: 40px;
-    }
+  .footer {
+    background-image: url('/img/footer/slice-tablet.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 174px 370px;
+    padding-bottom: 40px;
+  }
+  .footer-container {
+    gap: 80px;
+  }
+  .footer-section-list {
+    column-gap: 25px;
+  }
 
-    .footer-section-list {
-        column-gap: 25px;
-    }
+  .footer-section-list > .footer-section-item:nth-child(2) {
+    order: 3;
+  }
 
-    .footer-section-list>.footer-section-item:nth-child(2) {
-        order: 3;
-    }
+  .footer-section-list > .footer-section-item:nth-child(4) {
+    order: 3;
+  }
 
-    .footer-section-list>.footer-section-item:nth-child(4) {
-        order: 3;
-    }
+  .footer-slogan {
+    width: 521px;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+    padding-bottom: 0;
+  }
 
-    .footer-slogan {
-        width: 521px;
-        font-weight: 400;
-        font-size: 54px;
-        line-height: 1.19;
-        letter-spacing: -0.03em;
-        padding-bottom: 0;
-    }
+  .footer-section-list {
+    width: 478px;
+  }
 
-    .footer-section-list {
-        width: 478px;
-    }
-
-    .footer-bg {
-        display: none;
-    }
+  .footer-bg {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) and (min-resolution: 192dpi) {
-    .footer {
-        background-image: url(/img/footer/slice-tablet@2x.png);
-        background-size: 174px 370px;
-    }
+  .footer {
+    background-image: url('/img/footer/slice-tablet@2x.png');
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .footer-slogan {
-        font-weight: 400;
-        font-size: 64px;
-        width: 754px;
-        line-height: 1.16;
-        letter-spacing: -0.03em;
-    }
+  .footer-slogan {
+    font-weight: 400;
+    font-size: 64px;
+    width: 754px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+  }
 
-    .footer {
-        background-image: url(/img/footer/slice-desktop1280.png);
-        background-position: right;
-        background-size: 334px 403px;
-        padding-bottom: 40px;
-    }
-
-    .footer-section-list {
-        width: 478px;
-        column-gap: 25px;
-        padding-bottom: 117px;
-    }
+  .footer {
+    background-image: url('/img/footer/slice-desktop1280.png');
+    background-position: right;
+    background-size: 336px 363px;
+    padding-bottom: 40px;
+  }
+  .footer-container {
+    gap: 117px;
+  }
+  .footer-section-list {
+    width: 478px;
+    column-gap: 25px;
+  }
 }
 
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-    .footer {
-        background-image: url(/img/footer/slice-desktop1280@2x.png);
-    }
+  .footer {
+    background-image: url('/img/footer/slice-desktop1280@2x.png');
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .footer {
-        background-image: url(/img/footer/slice-desktop1440.png);
-        background-position: right;
-        background-size: 496px 403px;
-        padding-bottom: 40px;
-    }
+  .footer {
+    background-image: url('/img/footer/slice-desktop1440.png');
+    background-position: right;
+    background-size: 496px 363px;
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-    .footer {
-        background-image: url(/img/footer/slice-desktop1440@2x.png);
-    }
+  .footer {
+    background-image: url('/img/footer/slice-desktop1440@2x.png');
+  }
 }
