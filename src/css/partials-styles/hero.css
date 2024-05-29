@@ -22,6 +22,18 @@
   letter-spacing: -0.03em;
   margin-bottom: 20px;
 }
+.title-word {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 2s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .color-orange {
   color: var(--yellow);
@@ -112,6 +124,16 @@
   }
   .hero-wrap-icon {
     fill: var(--yellow);
+    animation: rotate 10s linear infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
 

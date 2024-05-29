@@ -1,0 +1,22 @@
+#btnUp {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  background-color: var(--dark);
+  color: var(--white);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid var(--grey);
+  font-size: 18px;
+}
+
+#btnUp:hover {
+  background-color: var(--yellow);
+  color: var(--dark);
+  font-weight: 700;
+}

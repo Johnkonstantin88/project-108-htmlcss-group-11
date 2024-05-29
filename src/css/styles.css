@@ -1,5 +1,7 @@
 @import url('./base-styles/base.css');
 @import url('./base-styles/reset.css');
+@import url('./base-styles/btn-up.css');
+
 @import url('./partials-styles/header.css');
 @import url('./partials-styles/hero.css');
 @import url('./partials-styles/about-us.css');

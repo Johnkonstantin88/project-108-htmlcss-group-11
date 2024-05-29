@@ -5,9 +5,22 @@
   background-repeat: no-repeat;
   background-position: top 298px left;
 }
+
+.our-collection-menu-item {
+  transition: transform var(--timing-function);
+}
+
+.our-collection-menu-item:hover {
+  transform: scale(1.03);
+  cursor: zoom-in;
+}
+
 @media screen and (max-width: 374px) {
   .our-collection-title {
     font-size: 24px;
+  }
+  .our-collection {
+    background-position: top 245px left;
   }
 }
 .our-collection-title {
