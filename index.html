@@ -20,63 +20,93 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     
     <title>Vyshyvanka Vibes</title>
     <script type="module" crossorigin src="/project-108-htmlcss-group-11/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-108-htmlcss-group-11/assets/index-b1552a9b.css">
+    <link rel="modulepreload" crossorigin href="/project-108-htmlcss-group-11/assets/vendor-3ed9961f.js">
+    <link rel="stylesheet" href="/project-108-htmlcss-group-11/assets/index-f28493a5.css">
   </head>
 
   <body>
     <header>
   <div class="header container">
-    <a href=""><img class="logo" src="/project-108-htmlcss-group-11/assets/logo-4dce02fa.svg" alt="logo" width="44" height="39"></a>
+    <a href=""
+      ><img class="logo" src="/project-108-htmlcss-group-11/assets/logo-4dce02fa.svg" alt="logo" width="44" height="39"
+    /></a>
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-list-item">
-          <a href="#about-us">ABOUT US</a>
+          <a class="js-header-link" href="#about-us">ABOUT US</a>
         </li>
         <li class="nav-list-item">
-          <a href="#our-collection">OUR COLLECTION</a>
+          <a class="js-header-link" href="#our-collection">OUR COLLECTION</a>
         </li>
         <li class="nav-list-item">
-          <a href="#your-order">CUSTOMER ORDER</a>
+          <a class="js-header-link" href="#your-order">CUSTOMER ORDER</a>
         </li>
         <li class="nav-list-item">
-          <a href="#testimonials">TESTIMONIALS</a>
+          <a class="js-header-link" href="#testimonials">TESTIMONIALS</a>
         </li>
       </ul>
     </nav>
     <a class="phone" href="tel:+380684439426">+380 (68) 443-94-26</a>
     <ul class="social-pages-list">
       <li class="social-pages-list-item">
-        <a class="social-pages-list-item-link" href="https://www.facebook.com/goITclub/" target="_blank">
+        <a
+          class="social-pages-list-item-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+        >
           <svg class="icon" width="44px" height="44px" aria-label="facebook">
-            <use href='/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-facebook'></use>
-          </svg></a>
+            <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-facebook"></use></svg
+        ></a>
       </li>
       <li>
-        <a class="social-pages-list-item-link" href="https://www.instagram.com/goitclub/ " target="_blank">
+        <a
+          class="social-pages-list-item-link"
+          href="https://www.instagram.com/goitclub/ "
+          target="_blank"
+        >
           <svg class="icon" width="44px" height="44px" aria-label="instagram">
-            <use href='/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-instagram'></use>
-          </svg></a>
+            <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-instagram"></use></svg
+        ></a>
       </li>
       <li>
-        <a class="social-pages-list-item-link" href="https://www.youtube.com/c/GoIT " target="_blank">
+        <a
+          class="social-pages-list-item-link"
+          href="https://www.youtube.com/c/GoIT "
+          target="_blank"
+        >
           <svg class="icon" width="44px" height="44px" aria-label="youtube">
-            <use href='/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-youtube'></use>
-          </svg></a>
+            <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-youtube"></use></svg
+        ></a>
       </li>
     </ul>
-    <button class="menu-button" type="button">
-      <svg class="mobile-menu-burger" width="36" height="24" aria-label="mobile menu button" >
+    <button class="menu-button js-open-menu" type="button">
+      <svg
+        class="mobile-menu-burger"
+        width="36"
+        height="24"
+        aria-label="mobile menu button"
+      >
         <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-nav-mobile"></use>
       </svg>
     </button>
   </div>
-  <div class="mobile-menu ">
+  <div class="mobile-menu js-menu-container">
     <div class="mobile-menu-container">
-      <button class="mobile-menu-close-btn">
-        <svg class="mobile-menu-close-btn-icon" width="18" height="18" aria-label="mobile menu close button">
+      <button class="mobile-menu-close-btn js-close-menu">
+        <svg
+          class="mobile-menu-close-btn-icon"
+          width="18"
+          height="18"
+          aria-label="mobile menu close button"
+        >
           <use href="/project-108-htmlcss-group-11/assets/icons-252ed155.svg#icon-cross-mobile"></use>
         </svg>
       </button>
@@ -87,10 +117,18 @@
       </address>
       <nav class="mobile-menu-nav">
         <ul class="mobile-menu-list">
-          <li class="mobile-menu-list-item"><a href="#about-us">About us</a></li>
-          <li class="mobile-menu-list-item"><a href="#our-collection">Our collection </a></li>
-          <li class="mobile-menu-list-item"><a href="#your-order">CUSTOMER ORDER</a></li>
-          <li class="mobile-menu-list-item"><a href="#testimonials">TEstimonials</a></li>
+          <li class="mobile-menu-list-item">
+            <a class="js-header-link" href="#about-us">About us</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a class="js-header-link" href="#our-collection">Our collection </a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a class="js-header-link" href="#your-order">CUSTOMER ORDER</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a class="js-header-link" href="#testimonials">TEstimonials</a>
+          </li>
         </ul>
       </nav>
       <div class="background-menu"></div>
@@ -101,6 +139,7 @@
 
     <main>
       <section class="hero-section">
+  <button id="btnUp">Up</button>;
   <div class="container hero-container">
     <picture>
       <source
@@ -131,12 +170,28 @@
         media="(max-width: 767px)"
       />
 
-      <img class="hero-img" src="/project-108-htmlcss-group-11/assets/hero-mobile-1e31fd03.jpg" alt="girl" width="335" height="545"/>
+      <img
+        class="hero-img"
+        src="/project-108-htmlcss-group-11/assets/hero-mobile-1e31fd03.jpg"
+        alt="girl"
+        width="335"
+        height="545"
+      />
     </picture>
     <div class="hero-wrap-main">
-      <h1 class="hero-title">
+      <!-- <h1 class="hero-title">
         Reviving the traditional
         <span class="color-orange">Ukrainian</span> artistry in every stitch.
+      </h1> -->
+      <h1 class="hero-title">
+        <span class="title-word">Reviving</span>
+        <span class="title-word">the</span>
+        <span class="title-word">traditional</span>
+        <span class="title-word color-orange">Ukrainian</span>
+        <span class="title-word">artistry</span>
+        <span class="title-word">in</span>
+        <span class="title-word">every</span>
+        <span class="title-word">stitch.</span>
       </h1>
       <button type="button" class="hero-btn">
         Order
@@ -236,6 +291,7 @@
           height="430"
         />
         <source
+          class="our-collection-menu-picture"
           media="(min-width: 1280px)"
           srcset="/project-108-htmlcss-group-11/assets/poltava-desktop-89f99dee.jpg 1x, /project-108-htmlcss-group-11/assets/poltava-desktop@2x-fc42ce5e.jpg 2x"
           width="380"
@@ -256,13 +312,15 @@
 
         <img
           src="/project-108-htmlcss-group-11/assets/poltava-mobile-8d58d6d7.jpg"
-          alt="AUGUST Poltava women's blouseRING" width="335"
+          alt="AUGUST Poltava women's blouseRING"
+          width="335"
           height="400"
         />
       </picture>
       <div class="our-collection-text-container">
         <h3 class="our-collection-menu-title">
-          AUGUST POLTAVA WOMEN'S <span class="accent-punto">...</span>
+          AUGUST POLTAVA WOMEN'S
+          <span class="accent-punto">...</span>
           <span class="accent-blousering">BLOUSERING</span>
         </h3>
         <p class="our-collection-menu-subtitle">3300 UAH</p>
@@ -296,7 +354,8 @@
         />
         <img
           src="/project-108-htmlcss-group-11/assets/gorgany-mobile-fad09f5d.jpg"
-          alt="Women's blouse Gorgany" width="335"
+          alt="Women's blouse Gorgany"
+          width="335"
           height="400"
         />
       </picture>
@@ -333,7 +392,8 @@
         />
         <img
           src="/project-108-htmlcss-group-11/assets/crimea-mobile-9d979e53.jpg"
-          alt="Women's blouse Crimea" width="335"
+          alt="Women's blouse Crimea"
+          width="335"
           height="400"
         />
       </picture>
@@ -370,7 +430,8 @@
         />
         <img
           src="/project-108-htmlcss-group-11/assets/verkhovina-mobile-5cac7ca6.jpg"
-          alt="Men's shirt Verkhovina" width="335"
+          alt="Men's shirt Verkhovina"
+          width="335"
           height="400"
         />
       </picture>
@@ -407,7 +468,8 @@
         />
         <img
           src="/img/our-collection/dmobile/mountain-mobile.jpg"
-          alt="Mountain men's shirt" width="335"
+          alt="Mountain men's shirt"
+          width="335"
           height="400"
         />
       </picture>
@@ -444,7 +506,8 @@
         />
         <img
           src="/project-108-htmlcss-group-11/assets/yasen-mobile-671fd9f8.jpg"
-          alt="Men's shirt Yasen" width="335"
+          alt="Men's shirt Yasen"
+          width="335"
           height="400"
         />
       </picture>
@@ -524,11 +587,11 @@
 </section>
 
       <section class="testimonials">
-  <div class="container">
-    <h2 class="testimonials-title"  id="testimonials">Testimonials</h2>
-    <ul class="testimonials-list">
-      <!-- 1 -->
-      <li class="testimonials-item">
+  <div class="container swiper">
+    <h2 class="testimonials-title" id="testimonials">Testimonials</h2>
+
+    <ul class="testimonials-list swiper-wrapper">
+      <li class="testimonials-item swiper-slide">
         <img
           class="testimonials-icon"
           srcset="/project-108-htmlcss-group-11/assets/maria@2x-f6602b84.png 2x"
@@ -536,6 +599,7 @@
           alt="Maria's photo"
           width="64"
           height="64"
+          loading="lazy"
         />
         <div class="testimonials-box">
           <h3 class="testimonials-subtitle">Maria Tkachuk</h3>
@@ -548,8 +612,7 @@
           </p>
         </div>
       </li>
-      <!-- 2  -->
-      <li class="testimonials-item hidden-item-first">
+      <li class="testimonials-item swiper-slide">
         <img
           class="testimonials-icon"
           srcset="/project-108-htmlcss-group-11/assets/sergey@2x-5139c809.png 2x"
@@ -557,6 +620,7 @@
           alt="Sergei's photo"
           width="64"
           height="64"
+          loading="lazy"
         />
         <div class="testimonials-box">
           <h3 class="testimonials-subtitle">Sergey Rybachok</h3>
@@ -569,8 +633,7 @@
           </p>
         </div>
       </li>
-      <!-- 3 -->
-      <li class="testimonials-item hidden-item-second">
+      <li class="testimonials-item swiper-slide">
         <img
           class="testimonials-icon"
           srcset="/project-108-htmlcss-group-11/assets/natalia@2x-cde6e7bb.png 2x"
@@ -578,6 +641,7 @@
           alt="Natalia's photo"
           width="64"
           height="64"
+          loading="lazy"
         />
         <div class="testimonials-box">
           <h3 class="testimonials-subtitle">Natalia Chatuk</h3>
@@ -590,75 +654,52 @@
           </p>
         </div>
       </li>
-                  <!-- 4 
-      <li class="testimonials-item">
+      <li class="testimonials-item swiper-slide">
         <img
           class="testimonials-icon"
-          srcset="./img/testimonials/natalia@2x.png 2x"
-          src="./img/testimonials/natalia.png"
+          srcset="/img/testimonials/victoria@2x.png 2x"
+          src="/img/testimonials/victoria.png"
           alt="Natalia's photo"
           width="64"
           height="64"
+          loading="lazy"
         />
         <div class="testimonials-box">
-          <h3 class="testimonials-subtitle">Natalia Chatuk</h3>
+          <h3 class="testimonials-subtitle">Victoria Dobrzhanska</h3>
           <p class="testimonials-text">
-            Vyshyvanka Vibes is a real find for everyone who appreciates
-            Ukrainian culture. Their embroidery reflects the spirit and
-            traditions of our people. I not only buy embroidered shirts for
-            myself, but also give them to my friends abroad as a symbol of our
-            beauty and national pride.
+            I absolutely adore Vyshyvanka Vibes. The store has a huge assortment
+            of clothes, you can choose for every day and for holidays. I have
+            already bought two products. The quality is top notch! In addition,
+            the store has very pleasant service. I recomend this shop to
+            everyone.
           </p>
         </div>
       </li>
-      -->
-            <!-- 5 
-      <li class="testimonials-item">
+      <li class="testimonials-item swiper-slide">
         <img
           class="testimonials-icon"
-          srcset="./img/testimonials/natalia@2x.png 2x"
-          src="./img/testimonials/natalia.png"
+          srcset="/img/testimonials/nazar@2x.png 2x"
+          src="/img/testimonials/nazar.png"
           alt="Natalia's photo"
           width="64"
           height="64"
+          loading="lazy"
         />
         <div class="testimonials-box">
-          <h3 class="testimonials-subtitle">Natalia Chatuk</h3>
+          <h3 class="testimonials-subtitle">Nazar Babenko</h3>
           <p class="testimonials-text">
-            Vyshyvanka Vibes is a real find for everyone who appreciates
-            Ukrainian culture. Their embroidery reflects the spirit and
-            traditions of our people. I not only buy embroidered shirts for
-            myself, but also give them to my friends abroad as a symbol of our
-            beauty and national pride.
+            I'm very glad I found this store. I urgently needed to find our
+            traditional clothes, but it turned out to be not so easy. There are
+            very few beautiful embroidered shirts for men. Vyshyvanka Vibes has
+            a large assortment and the quality is very pleasing. Finally i found
+            great shop with traditional clothes.
           </p>
         </div>
       </li>
-      -->
-            <!-- 6 
-      <li class="testimonials-item">
-        <img
-          class="testimonials-icon"
-          srcset="./img/testimonials/natalia@2x.png 2x"
-          src="./img/testimonials/natalia.png"
-          alt="Natalia's photo"
-          width="64"
-          height="64"
-        />
-        <div class="testimonials-box">
-          <h3 class="testimonials-subtitle">Natalia Chatuk</h3>
-          <p class="testimonials-text">
-            Vyshyvanka Vibes is a real find for everyone who appreciates
-            Ukrainian culture. Their embroidery reflects the spirit and
-            traditions of our people. I not only buy embroidered shirts for
-            myself, but also give them to my friends abroad as a symbol of our
-            beauty and national pride.
-          </p>
-        </div>
-      </li>
-      -->
     </ul>
   </div>
 </section>
+
     </main>
 
     <footer class="footer">
