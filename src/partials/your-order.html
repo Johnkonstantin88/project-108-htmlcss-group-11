@@ -12,7 +12,7 @@
             class="order-input"
             type="text"
             name="user-name"
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            pattern="^[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             placeholder="Enter your full name"
             required
           />
@@ -20,6 +20,7 @@
             class="order-input"
             type="email"
             name="user-email"
+            pattern="^\S+@\S+\.\S+$"
             placeholder="Enter your email"
             required
           />
@@ -66,8 +67,12 @@
             width="704"
             height="521"
           />
-          <img src="/img/your-order/order-tablet.jpg" alt="your-order-img" width="704"
-          height="521" />
+          <img
+            src="/img/your-order/order-tablet.jpg"
+            alt="your-order-img"
+            width="704"
+            height="521"
+          />
         </picture>
       </div>
     </div>
