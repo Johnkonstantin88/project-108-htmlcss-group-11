@@ -13,8 +13,6 @@ const swiper = new Swiper('.swiper', {
 
   watchSlidesProgress: true,
 
-  breakpointsBase: 'container',
-
   breakpoints: {
     320: {
       slidesPerView: 1,
@@ -32,7 +30,7 @@ const swiper = new Swiper('.swiper', {
       centerInsufficientSlides: true,
       centerSlides: true,
       slidesPerView: 3,
-      spaceBetween: 40,
+      spaceBetween: 36,
     },
   },
 
